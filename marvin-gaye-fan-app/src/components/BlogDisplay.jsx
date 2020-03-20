@@ -7,7 +7,22 @@ class BlogDisplay extends Component {
     render() { 
         return ( 
             <div>
-                
+                <div class= "blogDisplay">
+                    {
+                        this.props.albumArray.map((album, index) => {
+                            return (
+                                <div key ={index}>
+                                    <p>Album Rank {album.albumRank} </p>
+                                    <p>Album Titls {album.albumTitle} </p>
+                                    <p>Album Release Date {album.releaseDate} </p>
+                                    <p>Album Review {album.albumReview} </p>
+                                </div>
+                            )
+                        }
+                        )
+                    }
+
+                </div>
             </div>
          );
     }
