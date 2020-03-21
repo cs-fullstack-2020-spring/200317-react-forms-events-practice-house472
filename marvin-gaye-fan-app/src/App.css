@@ -37,13 +37,13 @@
   }
 }
 .formDisplay{
-  border: black solid 2px;
+
   
 }
 .blogDisplay{
   grid-column: 2;
 }
-.appGrid{
+#container{
   display: grid; 
   grid-template-columns: repeat(2, 2fr);
 }

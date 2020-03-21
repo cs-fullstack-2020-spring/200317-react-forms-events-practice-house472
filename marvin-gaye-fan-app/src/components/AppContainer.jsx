@@ -8,7 +8,9 @@ class AppContainer extends Component {
             albumArray: []
         }
     }
-    //TODO CALLBACK FUNCTION
+    //TODO CALLBACK FUNCTION 
+    //FIXED 3/20
+    //TODO WORK ON CSS STYLING AND COMPLETE WIREFRAME
     updateAlbumArray = (album) => {
         
         this.state.albumArray.push(album)
@@ -18,10 +20,12 @@ class AppContainer extends Component {
     
     render() {
         return (
-            <div>
+            <div id ="container">
                 <h1>Marvin Gaye Fanpage</h1>
-                <MarvinsBlog  updateAlbumArray ={this.updateAlbumArray}                                />
+                
                 <BlogDisplay   albumArray = {this.state.albumArray}         />
+                <MarvinsBlog  updateAlbumArray ={this.updateAlbumArray}                                />
+                
             </div>
         );
     }

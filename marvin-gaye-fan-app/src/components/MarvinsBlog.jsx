@@ -4,6 +4,7 @@ class MarvinsBlog
     constructor(props) {
         super(props);
         this.state = {
+            //TODO ADD ALBUM IMAGE
             albumRank: 0,
             albumTitle: "",
             releaseDate: "",
@@ -45,6 +46,10 @@ class MarvinsBlog
                 <form action="">
                     <fieldset>
                         <legend>Marvin Gaye's Best Albums</legend>
+
+                        <label htmlFor="">Album </label>
+                        <input type="image" name="albumImage" id="albumImage" value={this.state.albumImage} onChange={this.handleInputchange} />
+
                         <label htmlFor="">Album Rank</label>
                         <input type="number" name="albumRank" id="albumRank" value={this.state.albumRank} onChange={this.handleInputchange} />
 
