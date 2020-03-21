@@ -5,7 +5,7 @@ class AppContainer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            albumArray: []
+            
         }
     }
     //TODO CALLBACK FUNCTION 
