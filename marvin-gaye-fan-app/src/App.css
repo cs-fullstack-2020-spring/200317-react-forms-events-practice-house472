@@ -36,14 +36,25 @@
     transform: rotate(360deg);
   }
 }
-.formDisplay{
-
-  
-}
-.blogDisplay{
-  grid-column: 2;
-}
-#container{
-  display: grid; 
-  grid-template-columns: repeat(2, 2fr);
-}
+#albumContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  }
+  #header{
+    grid-column: 2;
+    grid-row: 1;
+  }
+  #image{
+    grid-column: 1;
+    grid-row: 1;
+    
+  }
+  #bio{
+    grid-column: 3;
+    grid-row: 1;
+  }
+  #buttons{
+    grid-column: 2/3;
+    grid-row: 1;
+  }
