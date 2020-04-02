@@ -38,77 +38,64 @@ App {
 }
 #albumContainer{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  background-color: rgb(116, 70, 49);
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
+  background-color: #372c2e;
   color: antiquewhite;
-  padding-left: 70px
-  }
-  .header{
-    grid-column: 1/4;
-    grid-row: 1;
-    text-align: center;
-  }
-  #image{
-    grid-column: 1;
-    grid-row: 2;
-    margin-right: 30px;
-    
-  }
-  #image_two{
-    grid-column: 3;
-    grid-row: 2;
-    
-  }
-  #bio{
-    grid-column: 2;
-    grid-row: 2;
-    margin-right: 30px;
-  }
-  #bio_two{
-    grid-column: 2;
-    grid-row: 3;
-  }
-  #bio_three{
-    grid-column: 3;
-    grid-row: 3;
-  }
+  min-height: 100vh;
   
- .here{
-  grid-column: 1;
-  grid-row: 4; 
- }
- 
-#myDear{
-  padding-bottom: -30em;
-  height: 15em;
-}
-#life_image{
-  height: 15em;
-}
-#inOur{
-  margin-bottom: -20em;
-  padding-bottom: -30em;
-}
-#Iwant{
-  margin-bottom: -40em;
-  
-}
-#trouble{
-  margin-bottom: -30em;
-}
-.live{
-  margin-bottom: -60em;
-  padding-bottom: 50em;
-  
-}
-#live_bio{
-  grid-column: 2/4;
-}
-#formDisplay{
-  
-  grid-row: 5;
-}
-/* #live_image{
-  grid-column: 2/3;
-} */
+  }
+  #header{
+     grid-column: 2/4;
+     text-align: center
+  }
+  body{
+    height: 100%;
+  }
+  #biography{
+text-align: left;
+border: #de9e48 solid 2px;
+border-radius: 2em;
+background-color: #563727;
+padding: 5px;
+
+  }
+  .navbar{
+    color: #de9e48;
+    padding: 5px;
+  }
+  #myDear{
+    text-align: left;
+border: #de9e48 solid 2px;
+border-radius: 2em;
+background-color: #563727;
+padding: 5px;
+  }
+  #inOur{
+    text-align: left;
+border: #de9e48 solid 2px;
+border-radius: 2em;
+background-color: #563727;
+padding: 5px;
+  }
+  #Iwant{
+    text-align: left;
+    border: #de9e48 solid 2px;
+    border-radius: 2em;
+    background-color: #563727;
+    padding: 5px;
+  }
+  #trouble{
+    text-align: left;
+    border: #de9e48 solid 2px;
+    border-radius: 2em;
+    background-color: #563727;
+    padding: 5px;
+  }
+  #live_bio{
+    text-align: left;
+    border: #de9e48 solid 2px;
+    border-radius: 2em;
+    background-color: #563727;
+    padding: 5px;
+  }
