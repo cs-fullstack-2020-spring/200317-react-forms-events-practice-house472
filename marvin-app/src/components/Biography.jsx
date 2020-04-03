@@ -10,8 +10,7 @@ class Biography extends Component {
     render() {
         return (
             <div >
-                <header >Marvin Gaye's Best Albums</header>
-                <p>Click Below to Learn About His Top 5 Albums!</p>
+               
                 <div id="image">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7XsO66wVCy-jmD_zR2eDMbutzoHpjycJA4dGagxDxYGThZbl2" alt="" />
                     <div id="biography">

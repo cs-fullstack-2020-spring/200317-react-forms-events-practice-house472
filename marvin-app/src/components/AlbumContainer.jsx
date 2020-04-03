@@ -24,8 +24,10 @@ class AlbumContainer extends Component {
         
         return (
             <div id="albumContainer">
+                
                 <div id = "header">
-                               
+                <h1>Marvin Gaye's Best Albums</h1>
+                <header>Click Below to Learn About His Top 5 Albums!</header>         
                 <Router>
                
                     <Link class="navbar"  to = "/home">Home</Link>
